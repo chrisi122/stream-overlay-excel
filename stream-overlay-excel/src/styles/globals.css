@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+main.container {
+  height: 100vh;
+  display: flex;
+  align-items: flex-end;
+}
+
+.athlete {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: 1rem;
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.info {
+  background-color: rgb(218, 37, 29);
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-radius: 10px 10px 0 0;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.attempts {
+  display: flex;
+  padding: 0.5rem 1rem;
+  gap: 2rem;
+}
+
+.discipline {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.attempt {
+  width: 5rem;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 0.3rem 0.2rem;
+}
+
+.good-lift {
+  background-color: green;
+}
+
+.no-lift {
+  background-color: red;
+}
+
+.result {
+  width: 6.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
